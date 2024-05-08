@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <title>Validador de CPF</title>
 </head>
 <body>
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum obcaecati illo ratione aut earum ad minus? Amet mollitia officia, earum eos explicabo accusamus dolores libero natus error, hic illum recusandae.</p>
+    <main class="main-container">
+        <section class="container">
+            <h1>Validador de CPF</h1>
+            <section class="validator-container">
+                <input class="caixa" type="text" name="txtCpf" id="txtCpf">
+                <button>Validar</button>
+                <div class="result">
+                    <p>O CPF <span id="info-cpf">06957387127</span></p>
+                    <p id="result-cpf">VALIDO</p>
+                </div>
+            </section>
+        </section>
+        
     </main>
     <script src="assets/js/script.js"></script>
 </body>
