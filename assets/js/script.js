@@ -3,6 +3,7 @@ class Validator {
         this.cpf = cpf;
     }
     result = document.querySelector('.result-off');
+    cpfPartial = this.cpf.slice(0, -2);
 
 
     openResult() {
@@ -26,4 +27,6 @@ e => {
     const btn = el.classList.contains('btn')
     if (btn) valid.openResult();
 })
+
+console.log(cpfPartial)
 
