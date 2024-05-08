@@ -4,6 +4,8 @@
 
 <p>📚O foco desse projeto foi praticar Class, com isso foi criado uma unica Class pai, envolvendo todos os métodos das funcionalidades, projeto agregou bastante ao meu conhecimento, melhorando pontos que já sabia, e conhecendo mais coisas novas e maneiras diferentes de desenvolver o código<p/>
 <p>💡Durante todo desenvolvimento, procurei fazer o código o mais limpo possível, para ser de fácil leitura e mauntenção.<p/>
+
+<p>Deploy do projeto : https://gleydsonlucena.github.io/validador-de-cpf/<p/>
   
 <p>💻Linguagens usadas foram:
 <div style="display:inline_block">
