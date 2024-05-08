@@ -28,5 +28,5 @@ e => {
     if (btn) valid.openResult();
 })
 
-console.log(cpfPartial)
+console.log(cpfPartial);
 
