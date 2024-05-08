@@ -57,9 +57,9 @@ class Validator {
     }
 
     valid() {
-        if (typeof this.cpfClean === undefined) return alert('Digite um CPF válido!');
-        if (this.cpfClean.length !== 11) return alert('Digite um CPF válido!');
-        if (this.isSequence()) return alert('Digite um CPF válido!');
+        if (typeof this.cpfClean === undefined) alert('Digite um CPF válido!');
+        if (this.cpfClean.length !== 11) alert('Digite um CPF válido!');
+        if (this.isSequence()) alert('Digite um CPF válido!');
 
         const oneDigit = this.createDigit(this.cpfPartial);
         const twoDigit = this.createDigit(this.cpfPartial + oneDigit)
@@ -69,11 +69,14 @@ class Validator {
     }
 
     appendValidation() {
-        if (this.valid() === false) return;
+        if (this.cpfClean.length !== 11) return;
+        if (typeof this.cpfClean === undefined) return;
+        if (this.isSequence()) return;
+
         const spanCpf = document.querySelector('.info-cpf');
         const spanValidator = document.querySelector('.result-cpf');
 
-        spanCpf.innerHTML = this.cpf;
+        spanCpf.innerHTML = cpfDigit.value;
         spanValidator.innerHTML = this.valid();
     }
 
@@ -82,17 +85,17 @@ class Validator {
 
 
 
+const cpfDigit = document.querySelector('#txtCpf');
 
 document.addEventListener('click',
     e => {
         const el = e.target;
         const btn = el.classList.contains('btn')
         if (btn) {
-            const cpfDigit = document.querySelector('#txtCpf');
             const valid = new Validator(cpfDigit.value);
-            valid.valid();
             valid.openResult()
-            return valid.appendValidation()
+            valid.valid();
+            valid.appendValidation()
         }
     })
 
