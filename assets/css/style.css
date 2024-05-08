@@ -12,4 +12,17 @@
 
 body, html {
     font-family: var(--fontMain);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
