@@ -13,8 +13,8 @@
 <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div><p/>
+  
+![Captura de tela de 2024-05-09 14-05-24](https://github.com/GleydsonLucena/validador-de-cpf/assets/154371710/fdf6a958-3126-4360-9ac0-be2e0d32ad1a)
 
-<img style="width: 200px" src: "![Captura de tela de 2024-05-09 14-05-24](https://github.com/GleydsonLucena/validador-de-cpf/assets/154371710/fdf6a958-3126-4360-9ac0-be2e0d32ad1a)
-" alt: "Imagem da página">
 
 
