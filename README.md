@@ -14,7 +14,7 @@
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div><p/>
 
-<img src: "![Captura de tela de 2024-05-09 14-02-26](https://github.com/GleydsonLucena/validador-de-cpf/assets/154371710/d2e686c2-201e-40dd-8d74-32544b45fd45)
-">
+<img style="width: 200px" src: "![Captura de tela de 2024-05-09 14-05-24](https://github.com/GleydsonLucena/validador-de-cpf/assets/154371710/fdf6a958-3126-4360-9ac0-be2e0d32ad1a)
+" alt: "Imagem da página">
 
 
